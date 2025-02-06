@@ -1,0 +1,196 @@
+[LOG] System::create                           : Header version = 2.02.09. Current version = 2.02.09.
+[LOG] Manager::init                            : maxchannels = 256 studioflags = 00000006 flags 00000000 extradriverdata 0000000000000000.
+[LOG] SystemI::init                            : Initialize version=20209 (128289), maxchannels=256, flags=0x00020000
+[LOG] SystemI::setOutputInternal               : Setting output to 'FMOD WASAPI Output'
+[LOG] OutputWASAPI::init                       : Mix Format (WAVEFORMATEX): wFormatTag=0xFFFE, nChannels=2, nSamplesPerSec=48000, nAvgBytesPerSec=384000, nBlockAlign=8, wBitsPerSample=32, cbSize=22.
+[LOG] OutputWASAPI::init                       : Mix Format (WAVEFORMATEXTENSIBLE): wValidBitsPerSample=32, dwChannelMask=0x00000003, SubFormat=00000003-0000-0010-8000-00AA00389B71.
+[LOG] OutputWASAPI::init                       : Output buffer size: 4096 samples, latency: 0.00ms, period: 10.00ms, DSP buffer: 1024 * 4
+[LOG] Thread::initThread                       : Init FMOD stream thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFB, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
+[LOG] Thread::initThread                       : Init FMOD mixer thread. Affinity: 0x4000000000000001, Priority: 0xFFFF7FFA, Stack Size: 81920, Semaphore: No, Sleep Time: 0, Looping: Yes.
+[LOG] AsyncManager::init                       : manager 000001FAEDB76878 isAsync 0 updatePeriod 0.02
+[LOG] AsyncManager::init                       : done
+[LOG] PlaybackSystem::init                     : 
+[LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
+[LOG] PlaybackSystem::init                     : done
+[LOG] Thread::initThread                       : Init FMOD Studio bank load thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
+[LOG] Manager::init                            : done.
+[LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
+[LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
+[LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
+[LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
+[LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
+[LOG] SoundI::release                          : Cyberfunk (000001F9FA3A0D48)
+[LOG] SoundI::release                          :     Cyberfunk (000001FAF6C1FB08)
+[LOG] SoundI::release                          :     Cyberfunk (000001FAF6FDD218)
+[LOG] SystemI::mixerSuspend                    : Suspending output.
+[LOG] SystemI::mixerResume                     : Resuming output.
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001FAF6FDDF98
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001FAF6FDDF98
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 668736
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 69536
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000713F10F258
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFC8FA233C0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFC8FA23380
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFC8FA234A0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFC8FA23560
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001FB2EB26158
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='BatHitSwing', format=5, channels=1, frequency=48000, lengthbytes=6176, lengthpcm=46051, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.431061.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 668736
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 69536
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000713F10F258
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFC8FA233C0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFC8FA23380
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFC8FA234A0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFC8FA23560
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001FADA7A8B78
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='PlayerStepSound', format=5, channels=1, frequency=48000, lengthbytes=672, lengthpcm=2672, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.108154.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 668736
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 69536
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000713F10F258
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFC8FA233C0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFC8FA23380
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFC8FA234A0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFC8FA23560
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001FA93D72B58
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='PropBreakSound', format=5, channels=1, frequency=48000, lengthbytes=3744, lengthpcm=19200, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.392395.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 668736
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 69536
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000713F10F258
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFC8FA233C0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFC8FA23380
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFC8FA234A0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFC8FA23560
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001F79B5E0538
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='BatEnemyHitSound', format=5, channels=1, frequency=48000, lengthbytes=5728, lengthpcm=39285, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999969.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 668736
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 69536
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000713F10F258
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFC8FA233C0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFC8FA23380
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFC8FA234A0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFC8FA23560
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001FADA7A8548
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='BatEnemyDeathSound', format=5, channels=1, frequency=48000, lengthbytes=13504, lengthpcm=85530, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999969.
+[LOG] SoundI::release                          :  (000001FAB4B7A648)
+[LOG] SoundI::release                          :     BatEnemyHitSound (000001FAF55DF578)
+[LOG] SoundI::release                          :  (000001FAB4B76FA8)
+[LOG] SoundI::release                          :     BatHitSwing (000001FAF4BDB208)
+[LOG] SoundI::release                          :  (000001FAB4B77C98)
+[LOG] SoundI::release                          :     BatEnemyDeathSound (000001FAED90F268)
+[LOG] SoundI::release                          :  (000001FA2FE22F88)
+[LOG] SoundI::release                          :     WorldUIPanelOpen (000001FB2ED67558)
+[LOG] SoundI::release                          :  (000001FA2FE25658)
+[LOG] SoundI::release                          :     PlayerWallSlide (000001F7A152D968)
+[LOG] SoundI::release                          :  (000001FA2FE205D8)
+[LOG] SoundI::release                          :     PerfectTimeClearSound (000001FAF548E358)
+[LOG] SoundI::release                          :  (000001FA2FE20B98)
+[LOG] SoundI::release                          :     WaveFinishedSound (000001F7A152D628)
+[LOG] SoundI::release                          : PreparationPhase (000001F9FA3A0688)
+[LOG] SoundI::release                          :     PreparationPhase (000001F9F6B14638)
+[LOG] SoundI::release                          :     PreparationPhase (000001FAF6FDDF98)
+[LOG] SoundI::release                          :  (000001FA2FE28E68)
+[LOG] SoundI::release                          :     FlawlessClearSound (000001F9FFB5C728)
+[LOG] SoundI::release                          :  (000001FA2FE247F8)
+[LOG] SoundI::release                          :     HealthOrbObtainedSound (000001FAF548E9D8)
+[LOG] SoundI::release                          :  (000001FA2FE24F28)
+[LOG] SoundI::release                          :     BatHitSound (000001FAEDCF7118)
+[LOG] SoundI::release                          :  (000001FA2FE22128)
+[LOG] SoundI::release                          :     RailgunShotSound (000001FAF4FD5588)
+[LOG] SoundI::release                          :  (000001FA2FE21718)
+[LOG] SoundI::release                          :     RailgunUpgradeSound (000001FAF4FD5248)
+[LOG] SoundI::release                          :  (000001FAB4B7AD78)
+[LOG] SoundI::release                          :     PlayerStepSound (000001F9FFB5C588)
+[LOG] SoundI::release                          :  (000001FA2FE20A28)
+[LOG] SoundI::release                          :     WaveStartingSoundEffect (000001FB2EFB9658)
+[LOG] SoundI::release                          :  (000001FA2FE29148)
+[LOG] SoundI::release                          :     EnergyPickupObtainedSound (000001F9FFB5D288)
+[LOG] SoundI::release                          :  (000001FA2FE22B38)
+[LOG] SoundI::release                          :     ArmorPickupObtainedSound (000001FB2ED67D78)
+[LOG] SoundI::release                          :  (000001FA2FE20E78)
+[LOG] SoundI::release                          :     PlayerJumpSound (000001F7A152D488)
+[LOG] SoundI::release                          :  (000001FA2FE23548)
+[LOG] SoundI::release                          :     ShotgunShotSound (000001FB2EFB9B38)
+[LOG] SoundI::release                          :  (000001FA2FE1FD38)
+[LOG] SoundI::release                          :     EnergyOrbObtainedSound (000001FAEDCF7458)
+[LOG] SoundI::release                          :  (000001FAB4B76CC8)
+[LOG] SoundI::release                          :     PropBreakSound (000001F9F83B16E8)
+[LOG] SoundI::release                          :  (000001FA2FE28CF8)
+[LOG] SoundI::release                          :     EnemyDeathSound (000001F9FFB5CDA8)
+[LOG] SoundI::release                          :  (000001FA2FE208B8)
+[LOG] SoundI::release                          :     RocketLauncherShotSound (000001FAEDCF7AD8)
+[LOG] SoundI::release                          :  (000001FA2FE24968)
+[LOG] SoundI::release                          :     ArmorOrbObtainedSound (000001FAF548DE78)
+[LOG] SoundI::release                          :  (000001FA2FE22CA8)
+[LOG] SoundI::release                          :     PlayerDamageSound (000001FB2EFB9998)
+[LOG] SoundI::release                          :  (000001FA2FE22578)
+[LOG] SoundI::release                          :     PlayerDeathSound (000001FB2ED67898)
+[LOG] SoundI::release                          :  (000001FA2FE20D08)
+[LOG] SoundI::release                          :     LandMineReady (000001F7A152CFA8)
+[LOG] SoundI::release                          :  (000001FA2FE24518)
+[LOG] SoundI::release                          :     CoinObtained (000001FAF548E4F8)
+[LOG] SoundI::release                          :  (000001FA2FE1F608)
+[LOG] SoundI::release                          :     CriticalShotSound (000001FAEDCF7C78)
+[LOG] SoundI::release                          :  (000001FA2FE292B8)
+[LOG] SoundI::release                          :     MovementAbilityAvailableSound (000001F9FFB5CA68)
+[LOG] SoundI::release                          :  (000001FA2FE24C48)
+[LOG] SoundI::release                          :     EnemySpawningSoundEffect (000001FB2EFB9178)
+[LOG] SoundI::release                          :  (000001FA2FE20748)
+[LOG] SoundI::release                          :     PlayerLandSound (000001FAEDCF7E18)
+[LOG] SoundI::release                          :  (000001FA2FE24688)
+[LOG] SoundI::release                          :     SMGShotSound (000001FB2EFB8FD8)
+[LOG] SoundI::release                          :  (000001FA2FE20468)
+[LOG] SoundI::release                          :     LandMineThrow (000001FB2ED673B8)
+[LOG] Thread::callback                         : FMOD Studio update thread finished.
+[LOG] Thread::callback                         : FMOD Studio bank load thread finished.
+[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
+[LOG] Thread::callback                         : FMOD Studio sample load thread finished.
+[LOG] LiveUpdate::release                      : 
+[LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
+[LOG] Thread::callback                         : FMOD stream thread finished.
+[LOG] Thread::callback                         : FMOD mixer thread finished.
+[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
+[LOG] SystemI::close                           : Closed.
+[LOG] Thread::callback                         : FMOD Studio bank load thread finished.
+[LOG] Thread::callback                         : FMOD Studio sample load thread finished.
+[LOG] LiveUpdate::release                      : 
+[LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
+[LOG] Thread::callback                         : FMOD stream thread finished.
+[LOG] Thread::callback                         : FMOD mixer thread finished.
+[LOG] SystemI::close                           : Closed.
+[LOG] Thread::callback                         : FMOD nonblocking thread (0) finished.
+[LOG] Thread::callback                         : FMOD file thread finished.

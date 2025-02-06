@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Checkpoint
+  - Obstacle
+  - Collectable
+  - Runner
+  - KillableEnemy
+  - Bullet
+  - CombinedBullet
+  - CameraConfiners
+  - CinemachineCamera
+  - Background
+  - Node
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Level Background
+  - Level Collidable
+  - Collectable
+  - Enemy
+  - BulletTrigger
+  - BulletCollide
+  - Player
+  - Solid
+  - Room
+  - FriendlyBullet
+  - EnemyBullet
+  - Mine
+  - CollideWithSolid
+  - CollideWithPlayer
+  - CollideWithItself
+  - CollideWithDamageSources
+  - Invulnerability
+  - CollideWithSolidAndEnemies
+  - CollideWithMovement
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 2105114363
+    locked: 0
+  - name: Props
+    uniqueID: 1129072427
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Foreground
+    uniqueID: 1748174067
+    locked: 0
+  - name: ScreenEffects
+    uniqueID: 916328727
+    locked: 0
